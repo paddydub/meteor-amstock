@@ -1,13 +1,14 @@
 Package.describe({
-  summary: "DEPRACATED: use em0ney:amcharts",
-  name: "mrt:amcharts",
+  summary: "test",
+  name: "mrt:amstock",
   version: "3.13.1",
-  git: "https://github.com/em0ney/meteor-amcharts.git",
+  git: "https://github.com/paddydub/meteor-amstock.git",
   documentation: "README.md"
 });
 
 Package.on_use(function (api) {
   api.add_files('lib/amcharts.js', 'client');
+  api.add_files('lib/amstock.js', 'client');
   api.add_files('lib/funnel.js', 'client');
   api.add_files('lib/gauge.js', 'client');
   api.add_files('lib/pie.js', 'client');
