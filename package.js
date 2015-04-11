@@ -1,7 +1,7 @@
 Package.describe({
   summary: "Amcharts + Amstock",
   name: "paddydub:amstock",
-  version: "3.13.1",
+  version: "3.13.2",
   git: "https://github.com/paddydub/meteor-amstock.git",
   documentation: "README.md"
 });
