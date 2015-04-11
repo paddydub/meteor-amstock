@@ -1,20 +1,20 @@
 Package.describe({
   summary: "Amcharts + Amstock",
   name: "paddydub:amstock",
-  version: "3.13.2",
+  version: "3.13.15",
   git: "https://github.com/paddydub/meteor-amstock.git",
   documentation: "README.md"
 });
 
 Package.on_use(function (api) {
   api.add_files('lib/amcharts.js', 'client');
-  api.add_files('lib/amstock.js', 'client');
   api.add_files('lib/funnel.js', 'client');
   api.add_files('lib/gauge.js', 'client');
   api.add_files('lib/pie.js', 'client');
   api.add_files('lib/radar.js', 'client');
   api.add_files('lib/serial.js', 'client');
   api.add_files('lib/xy.js', 'client');
+  api.add_files('lib/amstock.js', 'client');
   api.add_files('lib/images/dragIcon.gif', 'client');
   api.add_files('lib/images/dragIconBlack.gif', 'client');
   api.add_files('lib/images/dragIconH.gif', 'client');
