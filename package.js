@@ -1,6 +1,6 @@
 Package.describe({
-  summary: "test",
-  name: "mrt:amstock",
+  summary: "Amcharts + Amstock",
+  name: "paddydub:amstock",
   version: "3.13.1",
   git: "https://github.com/paddydub/meteor-amstock.git",
   documentation: "README.md"
